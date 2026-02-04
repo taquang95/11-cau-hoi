@@ -9,7 +9,7 @@ const benefits = [
   },
   {
     title: "Tiết Kiệm Thời Gian",
-    description: "Loại bỏ khách hàng không tiềm năng chỉ sau 5 phút trò chuyện đầu tiên.",
+    description: "Loại bỏ khách hàng không tiềm năng chỉ sau 7 phút trò chuyện đầu tiên.",
     icon: "⏳"
   },
   {

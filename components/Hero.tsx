@@ -20,7 +20,7 @@ const Hero: React.FC<HeroProps> = ({ onScrollToForm }) => {
         </div>
         
         <h1 className="mx-auto max-w-4xl text-3xl md:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
-          Sở Hữu Bí Quyết <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Thấu Hiểu Khách Hàng</span> Chỉ Sau 5 Phút
+          Sở Hữu Bí Quyết <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Thấu Hiểu Khách Hàng</span> Chỉ Sau 7 Phút
         </h1>
         
         <p className="mx-auto mt-6 max-w-2xl text-base md:text-lg text-slate-400 leading-relaxed">
