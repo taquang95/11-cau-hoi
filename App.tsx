@@ -1,12 +1,12 @@
 
 import React, { useRef, useState } from 'react';
-import Hero from './components/Hero';
-import Benefits from './components/Benefits';
-import LeadForm from './components/LeadForm';
-import Author from './components/Author';
-import Footer from './components/Footer';
-import SchemaMarkup from './components/SchemaMarkup';
-import SuccessPage from './components/SuccessPage';
+import Hero from './components/Hero.tsx';
+import Benefits from './components/Benefits.tsx';
+import LeadForm from './components/LeadForm.tsx';
+import Author from './components/Author.tsx';
+import Footer from './components/Footer.tsx';
+import SchemaMarkup from './components/SchemaMarkup.tsx';
+import SuccessPage from './components/SuccessPage.tsx';
 
 const App: React.FC = () => {
   const [isSuccess, setIsSuccess] = useState(false);

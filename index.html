@@ -6,24 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>11 Câu Hỏi Khai Thác Nhu Cầu Khách Hàng BĐS - Nguyễn Nam BĐS</title>
     
+    <!-- Anti-crash for process.env -->
+    <script>
+      window.process = { env: { API_KEY: "" } };
+    </script>
+
     <!-- SEO Meta Tags -->
     <meta name="description" content="Tải miễn phí bộ tài liệu 11 câu hỏi 'vàng' giúp môi giới BĐS thấu hiểu khách hàng và tăng tỷ lệ chốt đơn từ chuyên gia Nguyễn Nam.">
     <meta name="keywords" content="môi giới bđs, kỹ năng bán hàng bđs, khai thác nhu cầu khách hàng, nguyễn nam bđs, tài liệu bđs miễn phí">
     <meta name="author" content="Nguyễn Nam BĐS">
-    <link rel="canonical" href="https://your-domain.vercel.app/">
 
     <!-- Open Graph / Facebook / Zalo -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://your-domain.vercel.app/">
     <meta property="og:title" content="11 Câu Hỏi Khai Thác Nhu Cầu Khách Hàng BĐS - Miễn Phí">
     <meta property="og:description" content="Tuyệt chiêu thấu hiểu khách hàng chỉ sau 7 phút trò chuyện. Dành riêng cho Sales BĐS thực chiến.">
     <meta property="og:image" content="https://i.postimg.cc/KzGX5zLD/123123.png">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="11 Câu Hỏi Khai Thác Nhu Cầu Khách Hàng BĐS">
-    <meta property="twitter:description" content="Bộ câu hỏi giúp sale BĐS đột phá doanh số.">
-    <meta property="twitter:image" content="https://i.postimg.cc/KzGX5zLD/123123.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,9 +42,11 @@
 {
   "imports": {
     "@google/genai": "https://esm.sh/@google/genai@^1.39.0",
-    "react/": "https://esm.sh/react@^19.2.4/",
     "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+    "react-dom": "https://esm.sh/react-dom@^19.2.4",
+    "react-dom/client": "https://esm.sh/react-dom@^19.2.4/client",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
   }
 }
 </script>
